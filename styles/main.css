@@ -1,0 +1,90 @@
+
+body{
+   background-color: #1f2531;
+   margin:0;
+   font-family: Manrope, sans-serif;
+}
+
+
+.adviceCard {
+   margin:0;
+   text-align: center;
+   background-color: #313a49;
+   display:inline-block;
+   position:absolute;
+   top:50%;
+   left:50%;
+  transform: translate(-50%, -50%);
+   border-radius:25px;
+   width:550px;
+}
+
+.adviceGen{
+   text-align:center;
+}
+
+.title {
+   color:hsl(150, 100%, 66%);
+   letter-spacing: 4px;
+   padding: 40px 0 25px;
+   line-height:3.5em;
+   font-size:12px;
+}
+
+.hr_mobile {
+   display:none;
+}
+
+.adviceGen p {
+   color: hsl(193, 38%, 86%);
+   padding:0 50px;
+   font-size:28px;
+}
+
+.btn{
+   background-color:hsl(150, 100%, 66%);
+   border-radius:90%;
+   position:relative;
+   top:30px;
+}
+
+.btn:hover {
+   filter: drop-shadow(0 0 25px hsl(150, 100%, 66%));
+}
+
+.hr_line {
+   padding-top:25px;
+}
+
+.genIcon {
+   padding:10px;
+}
+
+.attribution{
+   display:none;
+}
+
+@media (max-width:595px){
+   .hr_mobile {
+      display:inline-block;
+      width:85%;
+   }
+   .hr_desktop{
+      display:none;
+   }
+
+   .adviceCard {
+      width:96%;
+      border-radius:15px;
+   }
+   .adviceGen p{
+      font-size:20px;
+      padding:10px 20px;
+   }
+
+   .title{
+      padding-top:20px;
+      font-size:10px;
+   }
+
+}
